@@ -1,0 +1,193 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+
+}
+
+body {
+    background-color:#7D1E6A;
+    border-bottom: 1px solid #EEB0B0;
+    color:  #7D1E6A;
+    margin-bottom: 1.5rem;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+}
+
+.fetch__header {
+    padding: 15px;
+    background-color: #7D1E6A;
+    color: #EEB0B0;
+    text-align: center;
+}
+
+.header__heading {
+    margin-block: 10px 20px;
+    font-size: 3em;
+    padding: 7px 0 0;
+}
+
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 30px;
+    display: flex;
+    justify-content: space-around;
+    box-shadow: 4px #FFE59D;
+}
+
+@media (max-width: 338px) {
+    ul {
+        /*flex-direction: column;*/
+        padding: 0;
+    }
+}
+
+li a {
+    padding: 30px 20px;
+    color: #EEB0B0;
+    font-weight: 300;
+}
+
+.search__person {
+    width: 100%;
+    text-align: center;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.search__person input {
+    width: 250px;
+    margin: 20px 0;
+    font-size: 18px;
+    font-family: 'Lato', sans-serif;
+    outline: none;
+    border-radius: 3px;
+    border: 1px solid #EEB0B0;
+    font-weight: 100;
+    transition: border .3s ease;
+    padding: 7px;
+    text-align: center;
+    justify-content: center;
+}
+
+.section__heading {
+    /*margin-block: 10px 20px;*/
+    font-size: 2em;
+    padding: 20px;
+    color: #EEB0B0;
+    box-shadow: 0 4px #FFE59D;
+    text-align: center;
+}
+
+.persons,.companies,.books {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding: 15px;
+    background-color: #7D1E6A;
+    width: 100%;
+    height: 100%;
+}
+
+.person,.company,.book {
+    width: 15%;
+    height: 25%;
+    box-shadow: 0 0 4px #EEB0B0;
+    text-align: center;
+    padding: 2.5em;
+    margin-bottom: 2em;
+    background-color: #BDE6F1;
+    border-radius: 5%;
+}
+
+@media (max-width: 828px) {
+    .person,.company,.book {
+        width: 40%
+    }
+}
+
+@media (max-width: 320px) {
+    .person,.company,.book {
+        width: 100%
+    }
+}
+
+.title {
+    font-size: 1.3rem;
+}
+
+.info {
+    display: flex;
+    justify-content: center;
+}
+
+.profile__pic img {
+    width: 80%;
+    border-radius: 5%;
+}
+
+.description,.gendre,.birthday,.phone,.email,.website,.author,.genre,.published,.publisher,.code,.title {
+    font-weight: bold;
+    text-transform: capitalize;
+    margin: .3em;
+    font-size: .9rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.email,.website,.phone {
+    background-color: #EEB0B0; 
+    border: none;
+    color: #ffeaa7;
+    padding: 7px 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 8px;
+    cursor: pointer;
+    width: 100%;
+    outline: 0;
+    border-radius: 10%;
+}
+
+@media (max-width: 828px) {
+    .email,.website,.phone {
+        width: 100%
+    }
+}
+
+@media (max-width: 320px) {
+    .email,.website,.phone {
+        width: 50%
+    }
+}
+
+button:hover {
+    opacity: 0.7;
+} 
+
+.hidden {
+    display: none;
+}
+
+.copyright {
+    color: #EEB0B0;
+    text-align: center;
+    justify-content: center;
+    padding: 30px 20px;
+    font-weight: 300;
+}
+
+.profile__pic__container {
+    width : 100%;
+}
+
+.info__container {
+    width : 100%
+
+}
