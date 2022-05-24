@@ -15,8 +15,6 @@ body {
 
 }
 
-
-
 .fetch__header {
     padding: 15px;
     background-color: #7D1E6A;
@@ -29,7 +27,6 @@ body {
     font-size: 3em;
     padding: 7px 0 0;
 }
-
 
 ul {
     list-style-type: none;
